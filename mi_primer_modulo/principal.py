@@ -4,6 +4,6 @@ from claseAlumno import Alumno
 
 alumno1 = Alumno("Guadi", 9)
 
-print(alumno1.nombre)
-print(alumno1.nota)
-print(alumno1.imprimir())
+alumno2 = Alumno("Virgi", 8)
+alumno1.imprimir()
+alumno2.imprimir()
